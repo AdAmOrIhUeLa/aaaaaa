@@ -1,0 +1,147 @@
+  <style>
+    body {
+      background-color: #f9faf2;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      position: relative;
+    }
+    nav li {
+      margin-right: 20px;
+    }
+    header {
+      background-color: #333;
+      padding: 10px;
+      color: #fff;
+      text-align: center;
+    }
+    footer {
+      background-color: #333;
+      padding: 17.5px;
+      color: #fff;
+      text-align: center;
+      font-size: 16px;
+    }
+    .container {
+      display: flex;
+    }
+    .center-text {
+      text-align: center;
+    }
+    .scrollable {
+      height: 640px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      justify-content: left;
+      width: 35%;
+      padding: 10px;
+      margin-bottom: 100px;
+    }    
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+    .main-content {
+      flex: 1;
+    }
+    .main-content > div {
+      display: flex;
+    }
+    .box {
+      box-shadow: #8d8484 0px 10px 20px;
+      padding: 2rem;
+      border-radius: 2rem;
+      background: white;
+      margin-bottom: 20px;
+      width: 100
+      align-items: center;
+      position: relative;
+    }
+    .elevate-link {
+      transition: transform 0.2s ease-in-out;
+    }
+    .elevate-link:hover {
+      position: relative;
+      top: -3px;
+    }
+    .box-link {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 1px solid #000000;
+      border-radius: 10px;
+      margin: 5px;
+      text-decoration: none;
+      color: #000000;
+      box-shadow: #8d8484 0px 10px 20px;
+    }
+    .box2 {
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: #8d8484 0px 10px 20px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      text-align: center;
+      display: inline-block;
+      margin-bottom: 100px;
+    }
+    @media (min-width: 100px) {
+    }
+    @media  screen and (max-width: 983px){
+      header {
+        background-color: #333;
+        padding: 10px;
+        color: #fff;
+        text-align: center;
+      }
+      footer {
+        background-color: #333;
+        padding: 17.5px;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+      }
+      .image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .box {
+        order: 1;
+        box-shadow: #8d8484 0px 10px 20px;
+        padding: 2rem;
+        border-radius: 2rem;
+        background: white;
+        margin-bottom: 20px;
+        width: 100
+        align-items: center;
+        position: relative;
+      }
+      .scrollable {
+        order: 2;
+        height: 640px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        justify-content: left;
+        width: 98%;
+        padding: 10px;
+        margin-bottom: 100px;
+      }
+      .box-link {
+        padding: 5% 10%;
+        margin: 2%;
+      }
+    }
+  </style>
